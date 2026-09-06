@@ -3,3 +3,11 @@
 [2026-09-03 09:50:27] [INFO] Magazine added: Tech Monthly (ID: M201)
 [2026-09-03 09:50:27] [INFO] Member registered: Bahaa Masri (ID: MEM01)
 [2026-09-03 09:50:27] [INFO] Member MEM01 successfully borrowed book: Clean Code
+[2026-09-03 09:51:25] [ERROR] Borrow failure: Book already borrowed
+exception.BookAlreadyBorrowedException: Book 'Clean Code' is already checked out.
+	at service.LibraryService.borrowBook(LibraryService.java:90)
+	at Main.main(Main.java:51)
+[2026-09-03 18:44:00] [ERROR] Borrow failure: Book already borrowed
+exception.BookAlreadyBorrowedException: Book 'Clean Code' is already checked out.
+	at service.LibraryService.borrowBook(LibraryService.java:90)
+	at Main.main(Main.java:51)
