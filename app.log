@@ -11,3 +11,17 @@ exception.BookAlreadyBorrowedException: Book 'Clean Code' is already checked out
 exception.BookAlreadyBorrowedException: Book 'Clean Code' is already checked out.
 	at service.LibraryService.borrowBook(LibraryService.java:90)
 	at Main.main(Main.java:51)
+[2026-09-06 11:18:25] [ERROR] Borrow failure: Book already borrowed
+exception.BookAlreadyBorrowedException: Book 'Clean Code' is already checked out.
+	at service.LibraryService.borrowBook(LibraryService.java:90)
+	at Main.main(Main.java:51)
+[2026-09-08 10:53:45] [INFO] Magazine added: Tech Monthly (ID: M201)
+[2026-09-08 10:53:45] [INFO] Book added: My New Book (ID: B999)
+[2026-09-08 10:56:04] [INFO] Book added: bahaa life (ID: 1234)
+[2026-09-08 10:56:49] [ERROR] Borrow failure: Member not found
+exception.MemberNotFoundException: Member with ID '1234' not found.
+	at service.LibraryService.borrowBook(LibraryService.java:77)
+	at Main.handleBorrowBook(Main.java:101)
+	at Main.runMenuLoop(Main.java:186)
+	at Main.main(Main.java:242)
+[2026-09-08 10:57:56] [INFO] Member registered: bahaa (ID: 202316766)
