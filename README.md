@@ -225,9 +225,4 @@ about (and wires together) every layer.
 - **Immutable objects** — `BookMetadata` is `final`, has only `private final` fields, no setters,
   and is fully initialized through its constructor.
 
-### Concepts from the original task brief not yet demonstrated
-For transparency: method references, `Comparator`-based alternative sorting,
-`StringBuilder`/`StringBuffer`, package-private visibility, `java.nio.file.Path`/`Files`, a
-repeating scheduled background task, and the interactive console menu are all described in the
-task brief but are not yet implemented in this codebase. See `PROJECT_DOCUMENTATION.md`,
-Section 14, for the full gap analysis.
+
